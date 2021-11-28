@@ -1,0 +1,116 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 112.5%; }
+
+/*18px*/
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #0d192b;
+  word-wrap: break-word;
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.5rem;
+  font-size: calc(12px + .522949vw);
+  height: 100vh;
+  display: flex; }
+
+h1, h2, h3, h4, h5 {
+  color: white;
+  text-rendering: optimizeLegibility;
+  margin: calc(12px + .1vw) 0; }
+
+span {
+  color: white;
+  font-weight: 400; }
+
+h1 {
+  font-size: 2.007em;
+  line-height: calc(20px + 4.3vw);
+  margin: calc(12px + 1.3vw) 0; }
+
+h2 {
+  font-size: 1.823em;
+  line-height: calc(20px + 4.3vw); }
+
+h3 {
+  font-size: 1.609em; }
+
+h4 {
+  font-size: 1.403em;
+  font-weight: 600; }
+
+h5 {
+  font-size: 1.275em; }
+
+h4, h5, h6 {
+  line-height: calc(20px + 2vw); }
+
+p {
+  margin-bottom: calc(12px + 1.6vw);
+  color: #8bacda; }
+
+.card {
+  background: #14253d;
+  font-weight: 300;
+  width: 19em;
+  margin: auto;
+  border-radius: .6rem;
+  line-height: 1.5em; }
+  .card__container {
+    margin: 1.3rem; }
+  .card .h5 {
+    margin-bottom: calc(12px + .05vw); }
+  .card p, .card .line, .card__tag-content {
+    margin-bottom: calc(12px + .03vw); }
+  .card__tag-content {
+    display: flex;
+    justify-content: space-between; }
+  .card__img {
+    width: 100%;
+    height: 100%;
+    border-radius: .3rem; }
+
+.avatar {
+  display: flex;
+  align-items: center; }
+  .avatar__img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: .65rem; }
+
+.icon--small {
+  height: 1.1rem;
+  width: 1.1rem; }
+
+.line {
+  width: 100%;
+  height: .5px;
+  background-color: #2f415b; }
+
+.tag {
+  color: #8bacda;
+  display: flex;
+  align-items: center; }
+  .tag .icon {
+    margin-right: 4px; }
+  .tag--primary {
+    color: #00fff7; }
+
+.h5 {
+  margin: calc(12px + .1vw) 0;
+  font-weight: 600;
+  font-size: 1.275em;
+  display: block; }
+
+.link {
+  transition: .2s;
+  color: white; }
+  .link:hover {
+    color: #00fff7; }
