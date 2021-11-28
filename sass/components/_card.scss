@@ -7,11 +7,11 @@
   line-height: 1.5em;
   font-size: .7em;
 
-  @media screen and (min-width: 288px){
+  @media screen and (min-width: 288px) {
     font-size: .8em;
   }
 
-  @media screen and (min-width: 400px){
+  @media screen and (min-width: 400px) {
     font-size: .85em;
   }
 
@@ -23,6 +23,7 @@
     margin-bottom: calc(12px + .03vw);
   }
 
+
   &__tag-content {
     display: flex;
     justify-content: space-between;
@@ -33,5 +34,12 @@
     width: 100%;
     height: 100%;
     border-radius: .3rem;
+    overflow: hidden;
+    display: grid;
+    background-color: hsl(178, 100%, 50%);
+
+    & > img {
+      border-radius: .3rem;
+    }
   }
 }

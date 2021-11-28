@@ -4,5 +4,9 @@
 
   &:hover {
     color: hsl(178, 100%, 50%);
+
+    & > div > img {
+      opacity: .6;
+    }
   }
 }

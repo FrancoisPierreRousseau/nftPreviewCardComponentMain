@@ -6,7 +6,7 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 112.5%; }
+  font-size: 18px; }
 
 /*18px*/
 a {
@@ -55,6 +55,10 @@ p {
   margin-bottom: calc(12px + 1.6vw);
   color: #8bacda; }
 
+img {
+  width: 100%;
+  height: 100%; }
+
 .card {
   background: #14253d;
   font-weight: 300;
@@ -79,14 +83,22 @@ p {
   .card__img {
     width: 100%;
     height: 100%;
-    border-radius: .3rem; }
+    border-radius: .3rem;
+    overflow: hidden;
+    display: grid;
+    background-color: #00fff7; }
+    .card__img > img {
+      border-radius: .3rem; }
 
 .avatar {
   display: flex;
   align-items: center; }
+  .avatar > p {
+    display: block;
+    margin-bottom: 0; }
   .avatar__img {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-right: .65rem; }
 
 .icon--small {
@@ -118,3 +130,5 @@ p {
   color: white; }
   .link:hover {
     color: #00fff7; }
+    .link:hover > div > img {
+      opacity: .6; }
