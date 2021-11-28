@@ -99,7 +99,9 @@ img {
   .avatar__img {
     width: 1.5rem;
     height: 1.5rem;
-    margin-right: .65rem; }
+    margin-right: .65rem;
+    outline: .05rem solid white;
+    border-radius: 50%; }
 
 .icon--small {
   height: 1.1rem;
