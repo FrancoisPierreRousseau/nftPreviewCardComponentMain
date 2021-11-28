@@ -15,6 +15,7 @@
 .DS_Store
 .prettierignore
 
+design
 
 # Created by https://www.toptal.com/developers/gitignore/api/intellij+iml,intellij+all,intellij
 # Edit at https://www.toptal.com/developers/gitignore?templates=intellij+iml,intellij+all,intellij

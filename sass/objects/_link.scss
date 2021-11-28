@@ -1,0 +1,8 @@
+.link {
+  transition: .2s;
+  color: hsl(0, 0%, 100%);
+
+  &:hover {
+    color: hsl(178, 100%, 50%);
+  }
+}
