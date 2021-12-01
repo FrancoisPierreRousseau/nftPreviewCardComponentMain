@@ -5,10 +5,6 @@
   padding: 0;
   box-sizing: inherit; }
 
-html {
-  font-size: 18px; }
-
-/*18px*/
 a {
   text-decoration: none; }
 
@@ -18,7 +14,8 @@ body {
   font-family: 'Outfit', sans-serif;
   line-height: 1.5rem;
   height: 100vh;
-  display: flex; }
+  display: flex;
+  font-size: 18px; }
 
 h1, h2, h3, h4, h5 {
   color: white;
@@ -65,14 +62,13 @@ img {
   width: 19em;
   margin: auto;
   border-radius: .6rem;
-  line-height: 1.5em;
-  font-size: .7em; }
-  @media screen and (min-width: 288px) {
-    .card {
-      font-size: .8em; } }
-  @media screen and (min-width: 400px) {
+  line-height: 1.5em; }
+  @media screen and (max-width: 400px) {
     .card {
       font-size: .85em; } }
+  @media screen and (max-width: 288px) {
+    .card {
+      font-size: .8em; } }
   .card__container {
     margin: 1.3rem; }
   .card p, .card .line, .card__tag-content {
@@ -97,8 +93,8 @@ img {
     display: block;
     margin-bottom: 0; }
   .avatar__img {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.7rem;
+    height: 1.7rem;
     margin-right: .65rem;
     outline: .05rem solid white;
     border-radius: 50%; }
